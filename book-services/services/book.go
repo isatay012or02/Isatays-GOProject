@@ -43,7 +43,6 @@ func (bk *bookservice) UpdateBook(id uint, book domain.Book) (web.BookResponse, 
 	return web.BookResponse{
 		Id:   response.ID,
 		Name: response.Name,
-
 		Price: response.Price,
 	}, nil
 }
